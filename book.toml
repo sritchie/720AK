@@ -10,5 +10,5 @@ build-dir = "output/html"
 [output.html]
 default-theme = "light"
 preferred-dark-theme = "navy"
-git-repository-url = "https://github.com/sritchie/rv10-poh"
-edit-url-template = "https://github.com/sritchie/rv10-poh/edit/main/sections/{path}"
+git-repository-url = "https://github.com/sritchie/n720ak"
+edit-url-template = "https://github.com/sritchie/n720ak/edit/main/sections/{path}"
