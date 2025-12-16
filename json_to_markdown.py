@@ -19,10 +19,10 @@ import json
 import sys
 from pathlib import Path
 
-# Category mappings from the efis-editor protobuf enum
-CATEGORY_NORMAL = 0
-CATEGORY_ABNORMAL = 1
-CATEGORY_EMERGENCY = 2
+# Category mappings - supports both integer (protobuf enum) and string values
+CATEGORY_NORMAL = {0, "normal", "NORMAL"}
+CATEGORY_ABNORMAL = {1, "abnormal", "ABNORMAL"}
+CATEGORY_EMERGENCY = {2, "emergency", "EMERGENCY"}
 
 
 def format_challenge_response(challenge: str, response: str, indent: int = 0) -> str:
@@ -132,11 +132,11 @@ def convert_json_to_markdown(json_path: str) -> dict[str, str]:
     emergency_groups = []
 
     for group in data.get("groups", []):
-        category = group.get("category", CATEGORY_NORMAL)
+        category = group.get("category", 0)
 
-        if category == CATEGORY_EMERGENCY:
+        if category in CATEGORY_EMERGENCY:
             emergency_groups.append(group)
-        elif category == CATEGORY_ABNORMAL:
+        elif category in CATEGORY_ABNORMAL:
             abnormal_groups.append(group)
         else:
             normal_groups.append(group)

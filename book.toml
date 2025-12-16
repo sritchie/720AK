@@ -1,0 +1,14 @@
+[book]
+title = "Pilot's Operating Handbook"
+authors = ["Sam Ritchie"]
+description = "RV-10 N720AK Pilot's Operating Handbook"
+src = "sections"
+
+[build]
+build-dir = "output/html"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+git-repository-url = "https://github.com/sritchie/rv10-poh"
+edit-url-template = "https://github.com/sritchie/rv10-poh/edit/main/sections/{path}"
