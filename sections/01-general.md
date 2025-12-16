@@ -62,11 +62,11 @@ the maximum extent possible.
 
 | Parameter | Value |
 |-----------|-------|
-| Manufacturer | |
-| Model | |
+| Manufacturer | Lycoming |
+| Model | YIO-540-D4A5 |
 | Serial Number | |
-| Rated Horsepower | HP |
-| Rated Speed | RPM |
+| Rated Horsepower | 260 HP |
+| Rated Speed | 2700 RPM |
 | Bore | inches |
 | Stroke | inches |
 | Displacement | cubic inches |
@@ -77,8 +77,8 @@ the maximum extent possible.
 
 | Parameter | Value |
 |-----------|-------|
-| Manufacturer | |
-| Model | |
+| Manufacturer | Whirlwind Aviation |
+| Model | RV-10 |
 | Serial Number | |
 | Blades | |
 | Low Pitch | degrees |

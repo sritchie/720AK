@@ -6,10 +6,11 @@ This handbook is divided into sections for quick reference:
 
 1. **General** - Aircraft specifications and descriptive data
 2. **Limitations** - Operating limitations, placards, and markings
-3. **Emergency Procedures** - Procedures for handling emergencies
-4. **Normal Procedures** - Normal operating procedures
-5. **Checklists** - Abbreviated checklists for normal and emergency operations
-6. **Performance** - Performance charts and data
-7. **Weight and Balance** - Weight and balance data and calculations
-8. **System Descriptions** - Description of aircraft systems
-9. **Handling, Servicing, and Maintenance** - Ground handling, servicing, and maintenance information
+3. **Engine Information** - Engine specifications and operating parameters
+4. **Emergency Procedures** - Procedures for handling emergencies
+5. **Abnormal Procedures** - Procedures for abnormal situations
+6. **Normal Procedures** - Normal operating procedures and checklists
+7. **Performance** - Performance charts and data
+8. **Weight and Balance** - Weight and balance data and calculations
+9. **System Descriptions** - Description of aircraft systems
+10. **Handling, Servicing, and Maintenance** - Ground handling, servicing, and maintenance information

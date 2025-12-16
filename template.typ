@@ -66,42 +66,35 @@
 
   // Title page
   align(center)[
-    #v(1in)
+    #v(0.5in)
     #text(size: 16pt)[#aircraft-type]
 
     #text(size: 24pt, weight: "bold", style: "italic")[#n-number]
 
     #text(size: 20pt, weight: "bold")[#title]
 
-    #v(0.5em)
+    #v(0.3em)
     #text(size: 14pt)[Revision #revision]
 
-    #v(2in)
+    #v(0.5in)
 
-    // Placeholder for aircraft photo
-    #rect(width: 80%, height: 3in, stroke: 1pt)[
-      #align(center + horizon)[
-        _Insert aircraft photo here_
+    // Aircraft photo
+    #image("images/aircraft.jpg", width: 80%)
 
-        `images/aircraft.jpg`
-      ]
-    ]
-
-    #v(1in)
+    #v(0.3in)
 
     #align(right)[
-      #text(size: 12pt)[
-        Constructed by: \
-        #builder \
+      #text(size: 11pt)[
+        Constructed by: #builder \
         Serial number #serial \
         Construction: #construction-dates
       ]
     ]
   ]
 
-  pagebreak()
+  v(0.5in)
 
-  // Table of contents (page 2 - back of title page sheet)
+  // Table of contents
   outline(
     title: [Table of Contents],
     depth: 2,
