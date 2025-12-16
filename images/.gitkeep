@@ -1,0 +1,20 @@
+# Placeholder images for POH
+
+Add your images to this directory and reference them in the markdown files.
+
+## Required Images
+
+- aircraft.jpg          - Title page aircraft photo
+- three-view.png        - Three-view drawing (top/side/front)
+- interior-dimensions.png - Cabin cross-section with dimensions
+- fuel-system.png       - Fuel system schematic
+- electrical-system.png - Electrical system diagram
+- panel-layout.png      - Instrument panel photo/diagram
+- wb-envelope.png       - Weight and balance envelope chart
+
+## Optional Images
+
+- engine-diagram.png    - Engine component locations
+- pitot-static.png      - Pitot-static system diagram
+- control-system.png    - Flight control system diagram
+- exterior-lights.png   - Exterior lighting locations

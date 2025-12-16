@@ -1,0 +1,117 @@
+# Operating Limitations
+
+## General
+
+This section provides the operating limitations, instrument markings, color
+coding and basic placards necessary for the safe operation of the airplane
+and its systems.
+
+## Airspeed Limitations
+
+| Type | Description | KIAS |
+|------|-------------|------|
+| V~S0~ | Stall, Flaps Down | |
+| V~S1~ | Stall, Flaps Up | |
+| V~X~ | Best Angle of Climb | |
+| V~Y~ | Best Rate of Climb | |
+| V~G~ | Best Glide | |
+| V~FE~ | Maximum Flap Extended | |
+| V~NO~ | Maximum Structural Cruising | |
+| V~A~ | Design Maneuvering | |
+| V~NE~ | Never Exceed | |
+
+## Power Plant Limitations
+
+| Parameter | Limit |
+|-----------|-------|
+| Engine | |
+| Maximum Horsepower | HP |
+| Maximum Speed | RPM |
+| Maximum Manifold Pressure | |
+| Maximum CHT | °F |
+| Maximum Oil Temperature | °F |
+| Oil Pressure (Min) | PSI |
+| Oil Pressure (Max) | PSI |
+| Fuel Pressure (Min) | PSI |
+| Fuel Pressure (Max) | PSI |
+
+## Power Plant EFIS Markings
+
+### Tachometer
+| Arc | Range |
+|-----|-------|
+| Green Arc | 0 – RPM |
+| Red Line (Max) | RPM |
+
+### Oil Temperature
+| Arc | Range |
+|-----|-------|
+| Green Arc | °F – °F |
+| Yellow Arc | °F – °F |
+| Red Line (Max) | °F |
+
+### Oil Pressure
+| Arc | Range |
+|-----|-------|
+| Green Arc | – PSI |
+| Yellow Arc | – PSI |
+| Red Line (Min) | PSI |
+| Red Line (Max) | PSI |
+
+### Cylinder Head Temperature
+| Arc | Range |
+|-----|-------|
+| Green Arc | °F – °F |
+| Yellow Arc | °F – °F |
+| Red Line (Max) | °F |
+
+## Weight Limits
+
+| Limit | Value |
+|-------|-------|
+| Maximum Takeoff Weight | lbs |
+| Maximum Ramp Weight | lbs |
+| Maximum Landing Weight | lbs |
+| Maximum Baggage Weight | lbs |
+
+## Center of Gravity Limits
+
+| Category | Range |
+|----------|-------|
+| Utility | " – " aft of datum |
+
+Note: Datum is located forward of the wing leading edge.
+
+## Flight Maneuvering Load Factors
+
+| Category | Positive | Negative |
+|----------|----------|----------|
+| Utility | +G | -G |
+
+## Types of Operations
+
+The airplane is approved for the following operations when equipped in
+accordance with FAR 91:
+
+- Day VFR
+- Night VFR
+- Day IFR
+- Night IFR
+- Non-Icing
+
+## Fuel Limitations
+
+| Parameter | Value |
+|-----------|-------|
+| Fuel Capacity | U.S. gallons |
+| Usable Fuel | U.S. gallons |
+| Minimum Grade | 100LL octane |
+
+## Placards
+
+| Location | Placard |
+|----------|---------|
+| On baggage area | Maximum Baggage Capacity lbs |
+| In view from entrance | EXPERIMENTAL |
+| In view of occupants | PASSENGER WARNING: THIS AIRCRAFT IS AMATEUR BUILT AND DOES NOT COMPLY WITH FEDERAL SAFETY REGULATIONS FOR STANDARD AIRCRAFT. |
+| At each fuel filler | 100LL, XX Gal. |
