@@ -128,3 +128,77 @@ the maximum extent possible.
 |---------|-------|
 | Wing Loading | lbs/sq. ft. |
 | Power Loading | lbs/HP |
+
+## Symbols, Abbreviations and Terminology
+
+### Airspeed Terminology
+
+| Symbol | Definition |
+|--------|------------|
+| KIAS | Knots Indicated Airspeed |
+| KCAS | Knots Calibrated Airspeed |
+| KTAS | Knots True Airspeed |
+| V~S0~ | Stall speed in landing configuration (flaps down) |
+| V~S1~ | Stall speed in clean configuration (flaps up) |
+| V~X~ | Best angle of climb speed |
+| V~Y~ | Best rate of climb speed |
+| V~G~ | Best glide speed |
+| V~FE~ | Maximum flap extended speed |
+| V~NO~ | Maximum structural cruising speed |
+| V~A~ | Design maneuvering speed |
+| V~NE~ | Never exceed speed |
+
+### Engine Terminology
+
+| Abbreviation | Definition |
+|--------------|------------|
+| RPM | Revolutions Per Minute |
+| MP | Manifold Pressure |
+| CHT | Cylinder Head Temperature |
+| EGT | Exhaust Gas Temperature |
+| TIT | Turbine Inlet Temperature |
+| FF | Fuel Flow |
+| GPH | Gallons Per Hour |
+| PSI | Pounds Per Square Inch |
+
+### Navigation and Avionics
+
+| Abbreviation | Definition |
+|--------------|------------|
+| EFIS | Electronic Flight Instrument System |
+| PFD | Primary Flight Display |
+| MFD | Multi-Function Display |
+| AHRS | Attitude and Heading Reference System |
+| GPS | Global Positioning System |
+| VOR | VHF Omnidirectional Range |
+| ILS | Instrument Landing System |
+| ADS-B | Automatic Dependent Surveillance-Broadcast |
+| AoA | Angle of Attack |
+
+### Electrical
+
+| Abbreviation | Definition |
+|--------------|------------|
+| VDC | Volts Direct Current |
+| ECU | Engine Control Unit |
+
+### Weight and Balance
+
+| Abbreviation | Definition |
+|--------------|------------|
+| CG | Center of Gravity |
+| MAC | Mean Aerodynamic Chord |
+| ARM | Horizontal distance from datum to item CG |
+| MOMENT | Weight multiplied by arm |
+
+### General
+
+| Abbreviation | Definition |
+|--------------|------------|
+| POH | Pilot's Operating Handbook |
+| SM | Statute Miles |
+| NM | Nautical Miles |
+| ISA | International Standard Atmosphere |
+| MSL | Mean Sea Level |
+| AGL | Above Ground Level |
+| OAT | Outside Air Temperature |
