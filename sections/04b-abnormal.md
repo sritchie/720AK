@@ -7,9 +7,8 @@
 ### Short Field Takeoff
 
 - Wing Flaps ... **20º**
-- Carburetor Heat ... **COLD**
 - Brakes ... **APPLY**
-- Power ... **FULL THROTTLE AND 2600 RPM**
+- Power ... **FULL THROTTLE AND 2700 RPM**
 - Brakes ... **RELEASE**
 - Elevator Control ... **SLIGHTLY TAIL LOW**
 - Climb Speed ... **59 KIAS**
@@ -21,10 +20,7 @@
 
 - Airspeed  ... **78 KIAS TO 72 KIAS**
 - Power ... **FULL THROTTLE AND 2600 RPM**
-- Fuel Selector Valve ... **BOTH**
-- Mixture ... **FULL RICH**
-    mixture may be leaned above 5000 feet
-- Cowl Flaps ... **FULL OPEN**
+- Fuel Selector Valve ... **MORE FULL**
 
 ## Landing
 
@@ -43,8 +39,7 @@
 
 ### Go Around
 
-- Power ... **FULL THROTTLE AND 2600 RPM**
-- Carburetor Heat ... **COLD**
+- Power ... **FULL THROTTLE AND 2700 RPM**
 - Wing Flaps ... **RETRACT TO 20º**
 - Climb Speed ... **61 KIAS**
     positive rate of climb
@@ -52,4 +47,3 @@
 - Climb Speed ... **77 KIAS**
 - Wing Flaps ... **RETRACT**
     after reaching safe altitude
-- Cowl Flaps ... **OPEN**

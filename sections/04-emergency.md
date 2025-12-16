@@ -31,11 +31,8 @@
 - Airspeed ... **76 KIAS**
 - Landing Area ... **LOCATE**
 - Fuel Selector Valve ... **BOTH**
-- Carburetor Heat ... **ON**
-- Mixture ... **RICH**
 - Ignition Switch ... **BOTH **
     or START if propeller is stopped
-- Primer ... **IN AND LOCKED**
 - Forced Landing ... **EXECUTE**
     as described in Emergency Landing Without Engine Power
 
@@ -195,8 +192,6 @@
 - Defroster Control ... **MAX AIRFLOW**
 - Engine Speed ... **INCREASE**
     to minimize build up on propeller blades
-- Carb Heat ... **AS REQUIRED**
-    Lean the mixture if carburetor heat is used continuously
 - Land ... **NEAREST AIRPORT**
     With an extremely rapid ice build-up, select a suitable " off airport" landing site
   With an ice accumulation of 1/4 inch or more on the wing leading
@@ -217,13 +212,6 @@
     Consult appropriate table in Section 5
 - Cruise ... **50 FT HIGHER THAN NORMAL**
 - Approach ... **30 FT HIGHER THAN NORMAL**
-
-### Carburetor Icing
-
-- Note RPM decrease ... **CHECK**
-- Carburetor Heat ... **ON**
-    monitor RPM for "decrease then increase" as carburetor ice melts
-- Mixture ... **RE-LEAN**
 
 ## Electrical / Oil Malfunctions
 
@@ -288,7 +276,6 @@
     to minimize compass card swings due to changing bank angles
   In addition, keep hands off the control wheel and steer a straight course with rudder control by monitoring the turn coordinator. Occasionally check the compass heading and make minor corrections to hold an approximate course.
 - Mixture ... **FULL RICH**
-- Carb Heat ... **FULL**
 - Power ... **REDUCE**
     for 500 to 800 FPM descent
 - Elevator and Rudder Trim ... **ADJUST**
@@ -307,7 +294,6 @@
 - Elevator Trim ... **ADJUST**
     to maintain an 86 KIAS glide
   Keep hands off the control wheel, using rudder control to hold straight heading. Use rudder trim to relieve unbalanced rudder force, if present.
-- Carb Heat ... **APPLY**
 - Engine ... **CLEAR OCCASIONALLY**
 - Normal Cruising Flight ... **RESUME**
 - Throttle ... **IDLE**

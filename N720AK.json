@@ -22,12 +22,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Keys",
-              "expectation": "CLIP TO THROTTLE",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Control Wheel Lock",
+              "prompt": "Gust lock",
               "expectation": "REMOVE",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -37,12 +32,12 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Avionics Power Switch",
-              "expectation": "OFF",
+              "prompt": "Avionics Switches",
+              "expectation": "BOTH OFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Master Switch",
+              "prompt": "Emergency Power",
               "expectation": "ON",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -52,23 +47,53 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Master Switch",
-              "expectation": "OFF",
+              "prompt": "Wing Flaps",
+              "expectation": "EXTEND",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Alternate Static Source Valve",
-              "expectation": "OFF",
+              "prompt": "Emergency Power",
+              "expectation": "NORM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Fuel Selector Valve",
+              "expectation": "FULLEST TANK",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "ALT STATIC",
+              "expectation": "NORM",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "ECU Fuel Sel",
+              "expectation": "PRI",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Fuel Pumps",
+              "expectation": "1/AUTO",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "START BATT SEL",
               "expectation": "BOTH",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Baggage Door",
-              "expectation": "CHECK",
+              "prompt": "IGN1, IGN2",
+              "expectation": "ON",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "ALT FLD",
+              "expectation": "ON",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "O2 EMERG BYPASS",
+              "expectation": "OFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -76,8 +101,8 @@
               "type": "ITEM_TITLE"
             },
             {
-              "prompt": "Rudder Gust Lock",
-              "expectation": "REMOVE",
+              "prompt": "Baggage Door",
+              "expectation": "CHECK",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -102,6 +127,11 @@
             {
               "prompt": "Right Wing:",
               "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "Wingtip Lights",
+              "expectation": "CHECK",
+              "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Wing Tie-Down",
@@ -158,23 +188,8 @@
               "indent": 1
             },
             {
-              "prompt": "Landing Lights",
+              "prompt": "Nose Wheel + Tire",
               "expectation": "CHECK",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Carburetor Air Filter",
-              "expectation": "CHECK",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Nose Wheel, Strut and Tire",
-              "expectation": "CHECK",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Nose Tie-Down",
-              "expectation": "DISCONNECT",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -183,7 +198,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Do not operate with less than nine quarts. ",
+              "prompt": "Do not operate with less than nine quarts.",
               "type": "ITEM_PLAINTEXT",
               "indent": 1
             },
@@ -191,11 +206,6 @@
               "prompt": "Fill to twelve quarts for extended flight.",
               "type": "ITEM_PLAINTEXT",
               "indent": 1
-            },
-            {
-              "prompt": "Fuel Strainer",
-              "expectation": "CHECK",
-              "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Left Wing:",
@@ -227,21 +237,16 @@
               "indent": 1
             },
             {
-              "prompt": "Left Wing Leading Edge",
-              "type": "ITEM_TITLE"
-            },
-            {
-              "prompt": "Pitot Tube Cover",
-              "expectation": "REMOVE",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Fuel Tank Vent Opening",
+              "prompt": "Wingtip Lights",
               "expectation": "CHECK",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Stall Warning Vane",
+              "prompt": "Left Wing Leading Edge",
+              "type": "ITEM_TITLE"
+            },
+            {
+              "prompt": "Fuel Tank Vent Opening",
               "expectation": "CHECK",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -250,6 +255,12 @@
               "expectation": "DISCONNECT",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
+            {
+              "prompt": "Pitot Tube Cover",
+              "expectation": "REMOVE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+
             {
               "prompt": "Left Wing Trailing Edge",
               "type": "ITEM_TITLE"
@@ -275,28 +286,28 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Fuel Selector Valve",
-              "expectation": "BOTH",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Cowl Flaps",
-              "expectation": "OPEN",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Avionics Power Switch",
-              "expectation": "OFF",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Electrical Equipment",
-              "expectation": "OFF",
+              "prompt": "Doors",
+              "expectation": "LOCKED",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Circuit Breakers",
               "expectation": "CHECK IN",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Master Switch",
+              "expectation": "ON",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Avionics Switches",
+              "expectation": "BOTH ON",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "Fuel Pumps",
+              "expectation": "2 THEN 1/AUTO",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -310,39 +321,29 @@
           "title": "Starting Engine",
           "items": [
             {
-              "prompt": "Mixture",
-              "expectation": "RICH",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
               "prompt": "Propeller",
               "expectation": "HIGH RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Carburetor Heat",
-              "expectation": "COLD",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Throttle",
-              "expectation": "OPEN 1/2 INCH",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Prime",
+              "prompt": "Pump Throttle",
               "expectation": "AS REQUIRED",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "3-6 strokes (none if engine is warm). Check in and locked",
+              "prompt": "1 or 2 primer squirts if cold. Look for AP on EFII controller.",
               "type": "ITEM_PLAINTEXT",
               "indent": 1
             },
             {
-              "prompt": "Master Switch",
-              "expectation": "ON",
+              "prompt": "Throttle",
+              "expectation": "OPEN 1/4 INCH",
               "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "If cold, wait 10s for primer fuel to evaporate.",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
             },
             {
               "prompt": "Beacon Light",
@@ -355,8 +356,8 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Ignition Switch",
-              "expectation": "START",
+              "prompt": "Ignition",
+              "expectation": "PRESS",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -369,32 +370,32 @@
               "type": "ITEM_TITLE"
             },
             {
-              "prompt": "If engine has been overprimed (2x):",
+              "prompt": "If engine doesn't start w/in 5 revolutions:",
               "type": "ITEM_PLAINTEXT",
               "indent": 1
             },
             {
-              "prompt": "- place mixture idle",
+              "prompt": "- disengage starter,",
               "type": "ITEM_PLAINTEXT",
               "indent": 1
             },
             {
-              "prompt": "- start with throttle 1/4 to 1/2 open.",
+              "prompt": "- wait ~10s for primer fuel to evaporate,",
               "type": "ITEM_PLAINTEXT",
               "indent": 1
             },
             {
-              "prompt": "- Mixture full rich when engine fires and throttle to idle promptly.",
+              "prompt": "- retry starting.",
               "type": "ITEM_PLAINTEXT",
               "indent": 1
             },
             {
               "prompt": "RPM ",
-              "expectation": "ADJUST TO 1,000",
+              "expectation": "ADJUST TO 650",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "reset to 1000 RPM as engine warms up",
+              "prompt": "reset to 650 RPM as engine warms up",
               "type": "ITEM_PLAINTEXT",
               "indent": 1
             },
@@ -404,25 +405,15 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Mixture",
-              "expectation": "LEAN FOR TAXI",
+              "prompt": "Alternator Current",
+              "expectation": "VERIFY",
               "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "at least 3/4\"",
-              "type": "ITEM_PLAINTEXT",
-              "indent": 1
             }
           ]
         },
         {
           "title": "Before Taxi",
           "items": [
-            {
-              "prompt": "Avionics Power Switch",
-              "expectation": "ON",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
             {
               "prompt": "Wing Flaps",
               "expectation": "RETRACT, VERIFY UP",
@@ -461,7 +452,7 @@
           ]
         },
         {
-          "title": "Before Takeoff",
+          "title": "Runup",
           "items": [
             {
               "prompt": "Brakes",
@@ -469,7 +460,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Cabin Doors and Windows",
+              "prompt": "Doors",
               "expectation": "CLOSED AND LOCKED",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -489,37 +480,42 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Fuel Selector Valve",
-              "expectation": "BOTH",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Cowl Flaps",
-              "expectation": "OPEN",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
               "prompt": "Propeller Control",
               "expectation": "HIGH RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Mixture",
-              "expectation": "RICH",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
               "prompt": "Throttle",
-              "expectation": "1700 RPM",
+              "expectation": "1500 RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Mixture Control",
-              "expectation": "SET",
+              "prompt": "Ignition",
+              "expectation": "CHECK",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "lean => RPM drop, enrich to peak RPM, three 1/2 turns rich",
+              "prompt": "1 OFF, Both, 2 OFF, Both",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "Verify active blue, disabled red",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "at both verify ECU1 blue, ECU2 green",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
+            },
+            {
+              "prompt": "ECU FUEL SEL",
+              "expectation": "CHECK",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            },
+            {
+              "prompt": "PRI, SEC, then PRI, verify active green, backup blue",
               "type": "ITEM_PLAINTEXT",
               "indent": 1
             },
@@ -534,43 +530,23 @@
               "indent": 1
             },
             {
-              "prompt": "Carburetor Heat",
-              "expectation": "CHECK RPM DROP",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Magnetos",
-              "expectation": "CHECK",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "L, Both, R, Both: ≤150 RPM drop ≤ 50 RPM difference",
-              "type": "ITEM_PLAINTEXT",
-              "indent": 1
-            },
-            {
-              "prompt": "Engine Instruments (Oil Pressure, Temp)",
-              "expectation": "CHECK",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Fuel Gauge",
-              "expectation": "CHECK QUANTITY",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Ammeter",
-              "expectation": "CHECK",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Suction Gage",
+              "prompt": "Engine Instruments (Oil Px, Temp)",
               "expectation": "CHECK",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Throttle",
-              "expectation": "IDLE, THEN 1000 RPM",
+              "expectation": "IDLE",
+              "type": "ITEM_CHALLENGE_RESPONSE"
+            }
+          ]
+        },
+        {
+          "title": "Before Takeoff",
+          "items": [
+            {
+              "prompt": "Fuel Gauge",
+              "expectation": "CHECK QUANTITY",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -614,7 +590,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Throttle Friction Lock",
+              "prompt": "Quadrant Friction Lock",
               "expectation": "ADJUST",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -634,14 +610,14 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Carburetor Heat",
-              "expectation": "COLD",
+              "prompt": "Power",
+              "expectation": "FULL THROTTLE AND 2700 RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Power",
-              "expectation": "FULL THROTTLE AND 2600 RPM",
-              "type": "ITEM_CHALLENGE_RESPONSE"
+              "prompt": "Advance over 5 seconds",
+              "type": "ITEM_PLAINTEXT",
+              "indent": 1
             },
             {
               "prompt": "Elevator Control",
@@ -680,34 +656,9 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Fuel Selector Valve",
-              "expectation": "BOTH",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Mixture",
-              "expectation": "SET",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "mixture may be leaned above 5000 feet",
-              "type": "ITEM_PLAINTEXT",
-              "indent": 1
-            },
-            {
               "prompt": "Engine Gauges",
               "expectation": "CHECK",
               "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Cowl Flaps",
-              "expectation": "OPEN",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "as required",
-              "type": "ITEM_PLAINTEXT",
-              "indent": 1
             }
           ]
         },
@@ -730,11 +681,6 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Mixture",
-              "expectation": "LEAN",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
               "prompt": "Engine Gauges",
               "expectation": "CHECK",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -742,11 +688,6 @@
             {
               "prompt": "Lights",
               "expectation": "AS REQUIRED",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Cowl Flaps",
-              "expectation": "CLOSED",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
@@ -756,27 +697,7 @@
           "items": [
             {
               "prompt": "Fuel Selector Valve",
-              "expectation": "BOTH",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Mixture Control",
-              "expectation": "SET",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "as needed",
-              "type": "ITEM_PLAINTEXT",
-              "indent": 1
-            },
-            {
-              "prompt": "Carburetor Heat",
-              "expectation": "AS REQUIRED",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Cowl Flaps",
-              "expectation": "AS REQUIRED",
+              "expectation": "MORE FULL",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -806,18 +727,8 @@
           "items": [
             {
               "prompt": "Fuel Selector Valve",
-              "expectation": "BOTH",
+              "expectation": "MORE FULL",
               "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Mixture",
-              "expectation": "ENRICHEN",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "as required",
-              "type": "ITEM_PLAINTEXT",
-              "indent": 1
             },
             {
               "prompt": "AWOS/ATIS",
@@ -830,27 +741,12 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Carburetor Heat",
-              "expectation": "AS REQUIRED",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "to prevent carburetor icing",
-              "type": "ITEM_PLAINTEXT",
-              "indent": 1
-            },
-            {
-              "prompt": "Cowl Flaps",
-              "expectation": "CLOSED",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
               "prompt": "Wing Flaps",
               "expectation": "AS DESIRED",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "0º to 10º below 140 KIAS, 10º to 40º below 95 KIAS",
+              "prompt": "0º to 16º below 140 KIAS, 10º to 33º below 95 KIAS",
               "type": "ITEM_PLAINTEXT",
               "indent": 1
             },
@@ -870,28 +766,8 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Carburetor Heat",
-              "expectation": "ON",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "apply full heat before closing throttle",
-              "type": "ITEM_PLAINTEXT",
-              "indent": 1
-            },
-            {
-              "prompt": "Cowl Flaps",
-              "expectation": "CLOSED",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
               "prompt": "Fuel Selector Valve",
-              "expectation": "BOTH",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Mixture",
-              "expectation": "RICH",
+              "expectation": "MORE FULL",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -961,16 +837,6 @@
           "title": "After Landing",
           "items": [
             {
-              "prompt": "Carburetor Heat",
-              "expectation": "COLD",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Cowl Flaps",
-              "expectation": "OPEN",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
               "prompt": "Wing Flaps",
               "expectation": "UP",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -1016,16 +882,6 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Ignition",
-              "expectation": "GROUNDING CHECK",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "L, R, then OFF, back R",
-              "type": "ITEM_PLAINTEXT",
-              "indent": 1
-            },
-            {
               "prompt": "Throttle",
               "expectation": "IDLE",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -1046,13 +902,13 @@
               "indent": 1
             },
             {
-              "prompt": "Ignition Switch",
+              "prompt": "Master Switch",
               "expectation": "OFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Master Switch",
-              "expectation": "OFF",
+              "prompt": "Avionics Switches",
+              "expectation": "BOTH OFF",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1061,12 +917,7 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Cowl Flaps",
-              "expectation": "CLOSED",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Control Lock",
+              "prompt": "Gust Lock",
               "expectation": "INSTALL",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
@@ -1092,18 +943,13 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Carburetor Heat",
-              "expectation": "COLD",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
               "prompt": "Brakes",
               "expectation": "APPLY",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Power",
-              "expectation": "FULL THROTTLE AND 2600 RPM",
+              "expectation": "FULL THROTTLE AND 2700 RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1153,22 +999,7 @@
             },
             {
               "prompt": "Fuel Selector Valve",
-              "expectation": "BOTH",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Mixture",
-              "expectation": "FULL RICH",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "mixture may be leaned above 5000 feet",
-              "type": "ITEM_PLAINTEXT",
-              "indent": 1
-            },
-            {
-              "prompt": "Cowl Flaps",
-              "expectation": "FULL OPEN",
+              "expectation": "MORE FULL",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
@@ -1239,12 +1070,7 @@
           "items": [
             {
               "prompt": "Power",
-              "expectation": "FULL THROTTLE AND 2600 RPM",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Carburetor Heat",
-              "expectation": "COLD",
+              "expectation": "FULL THROTTLE AND 2700 RPM",
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
@@ -1281,11 +1107,6 @@
               "prompt": "after reaching safe altitude",
               "type": "ITEM_PLAINTEXT",
               "indent": 1
-            },
-            {
-              "prompt": "Cowl Flaps",
-              "expectation": "OPEN",
-              "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
         }
@@ -1399,16 +1220,6 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Carburetor Heat",
-              "expectation": "ON",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Mixture",
-              "expectation": "RICH",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
               "prompt": "Ignition Switch",
               "expectation": "BOTH ",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -1417,11 +1228,6 @@
               "prompt": "or START if propeller is stopped",
               "type": "ITEM_PLAINTEXT",
               "indent": 1
-            },
-            {
-              "prompt": "Primer",
-              "expectation": "IN AND LOCKED",
-              "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Forced Landing",
@@ -2122,16 +1928,6 @@
               "indent": 1
             },
             {
-              "prompt": "Carb Heat",
-              "expectation": "AS REQUIRED",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Lean the mixture if carburetor heat is used continuously",
-              "type": "ITEM_PLAINTEXT",
-              "indent": 1
-            },
-            {
               "prompt": "Land",
               "expectation": "NEAREST AIRPORT",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -2221,31 +2017,6 @@
             {
               "prompt": "Approach",
               "expectation": "30 FT HIGHER THAN NORMAL",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            }
-          ]
-        },
-        {
-          "title": "Carburetor Icing",
-          "items": [
-            {
-              "prompt": "Note RPM decrease",
-              "expectation": "CHECK",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "Carburetor Heat",
-              "expectation": "ON",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
-              "prompt": "monitor RPM for \"decrease then increase\" as carburetor ice melts",
-              "type": "ITEM_PLAINTEXT",
-              "indent": 1
-            },
-            {
-              "prompt": "Mixture",
-              "expectation": "RE-LEAN",
               "type": "ITEM_CHALLENGE_RESPONSE"
             }
           ]
@@ -2521,11 +2292,6 @@
               "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
-              "prompt": "Carb Heat",
-              "expectation": "FULL",
-              "type": "ITEM_CHALLENGE_RESPONSE"
-            },
-            {
               "prompt": "Power",
               "expectation": "REDUCE",
               "type": "ITEM_CHALLENGE_RESPONSE"
@@ -2610,11 +2376,6 @@
             {
               "prompt": "Keep hands off the control wheel, using rudder control to hold straight heading. Use rudder trim to relieve unbalanced rudder force, if present.",
               "type": "ITEM_PLAINTEXT"
-            },
-            {
-              "prompt": "Carb Heat",
-              "expectation": "APPLY",
-              "type": "ITEM_CHALLENGE_RESPONSE"
             },
             {
               "prompt": "Engine",
